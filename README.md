@@ -44,7 +44,7 @@ Text.rich(
             textScaleFactor: 2,
           )
  ```
-![screenshot of app](screenshots/text_widgets/text_rich_example.png)
+<img src="screenshots/text_widgets/text_rich_example.png" width="40%" />
 
 
 ### RichText

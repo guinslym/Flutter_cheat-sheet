@@ -30,17 +30,17 @@ Using the [Text.rich](https://api.flutter.dev/flutter/widgets/Text-class.html) c
 
 ```dart
 Text.rich(
-            TextSpan(
-              text: 'Hello', // default text style
-              children: <TextSpan>[
-                TextSpan(text: ' beautiful ', style: TextStyle(fontStyle: FontStyle.italic)),
-                TextSpan(text: 'world', style: TextStyle(
-                  fontWeight: FontWeight.bold, color: Colors.purple.withOpacity(0.6))
-                  ),
-              ],
-            ),
-            textScaleFactor: 2,
-          )
+  TextSpan(
+    text: 'Hello', // default text style
+    children: <TextSpan>[
+      TextSpan(text: ' beautiful ', style: TextStyle(fontStyle: FontStyle.italic)),
+      TextSpan(text: 'world', style: TextStyle(
+        fontWeight: FontWeight.bold, color: Colors.purple.withOpacity(0.6))
+        ),
+    ],
+  ),
+  textScaleFactor: 2,
+)
  ```
 <img src="screenshots/text_widgets/text_rich_example.png" width="40%" />
 

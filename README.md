@@ -26,7 +26,7 @@ Text("""
   maxLines: 2
   ),
  ```
-![screenshot of app](screenshots/text_widgets/text_class_example.png =250x400)
+![screenshot of app](screenshots/text_widgets/text_class_example.png | width=80)
 
 Using the [Text.rich](https://api.flutter.dev/flutter/widgets/Text-class.html) constructor, the Text widget can display a paragraph with differently styled TextSpans.
 

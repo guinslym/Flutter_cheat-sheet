@@ -31,17 +31,20 @@ Text("""
 Using the [Text.rich](https://api.flutter.dev/flutter/widgets/Text-class.html) constructor, the Text widget can display a paragraph with differently styled TextSpans.
 
 ```dart
-const Text.rich(
-  TextSpan(
-    text: 'Hello', // default text style
-    children: <TextSpan>[
-      TextSpan(text: ' beautiful ', style: TextStyle(fontStyle: FontStyle.italic)),
-      TextSpan(text: 'world', style: TextStyle(fontWeight: FontWeight.bold)),
-    ],
-  ),
-)
+Text.rich(
+            TextSpan(
+              text: 'Hello', // default text style
+              children: <TextSpan>[
+                TextSpan(text: ' beautiful ', style: TextStyle(fontStyle: FontStyle.italic)),
+                TextSpan(text: 'world', style: TextStyle(
+                  fontWeight: FontWeight.bold, color: Colors.purple.withOpacity(0.6))
+                  ),
+              ],
+            ),
+            textScaleFactor: 2,
+          )
  ```
-
+![screenshot of app](screenshots/text_widgets/text_rich_example.png)
 
 
 ### RichText

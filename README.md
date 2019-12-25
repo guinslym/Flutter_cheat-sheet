@@ -49,12 +49,13 @@ Text.rich(
 RichText, which gives you more control over the text styles.
 
 ```dart
-const Text.rich(
-  TextSpan(
-    text: 'Hello', // default text style
+RichText(
+  text: TextSpan(
+    text: 'Hello ',
+    style: DefaultTextStyle.of(context).style,
     children: <TextSpan>[
-      TextSpan(text: ' beautiful ', style: TextStyle(fontStyle: FontStyle.italic)),
-      TextSpan(text: 'world', style: TextStyle(fontWeight: FontWeight.bold)),
+      TextSpan(text: 'bold', style: TextStyle(fontWeight: FontWeight.bold)),
+      TextSpan(text: ' world!'),
     ],
   ),
 )

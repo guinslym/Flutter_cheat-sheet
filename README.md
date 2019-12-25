@@ -16,13 +16,14 @@
 
 ```dart
 Text("""
-  Text with a background color  and lorem ipsum 
-  that will display what it can in a maximum number 
-  of 2 lines.""",
-    textAlign: TextAlign.right,
-    style: Theme.of(context).textTheme.title,
-    textScaleFactor: 1.5,
-    maxLines: 2
+  This is a Text that is aligned on the right and
+  that will display what it can on a maximum number 
+  of 2 lines.
+  """,
+  textAlign: TextAlign.right,
+  style: Theme.of(context).textTheme.title,
+  textScaleFactor: 1.5,
+  maxLines: 2
   ),
  ```
 ![screenshot of app](screenshots/text_widgets/text_class_example.png)

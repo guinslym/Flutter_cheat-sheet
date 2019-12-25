@@ -1,15 +1,13 @@
 # Flutter_cheat-sheet
 
-
 ## Widget Catalogs
 
 1. Text
     * Text
-        - Text.Rich
-        - Text.
+        - Text
+        - Text.rich
     * Rich Text
     * Default Text Style
-
 
 ### Text Class
 [Text Class](https://api.flutter.dev/flutter/widgets/Text-class.html) Display and style text.
@@ -46,7 +44,6 @@ Text.rich(
  ```
 <img src="screenshots/text_widgets/text_rich_example.png" width="40%" />
 
-
 ### RichText
 
 RichText, which gives you more control over the text styles.
@@ -63,14 +60,8 @@ const Text.rich(
 )
   ```
 
-
 ### DefaultTextStyle
 
 [DefaultTextStyle](https://api.flutter.dev/flutter/widgets/DefaultTextStyle-class.html), which sets default styles for Text widgets.
 
 The text style to apply to descendant Text widgets without explicit style.
-
-```dart
-
-
-  ```

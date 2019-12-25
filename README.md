@@ -23,7 +23,8 @@ Text(
 )
   ```
 
-
+ (screenshots/text_widgets.png)
+ 
 Using the [Text.rich](https://api.flutter.dev/flutter/widgets/Text-class.html) constructor, the Text widget can display a paragraph with differently styled TextSpans.
 
 ```dart

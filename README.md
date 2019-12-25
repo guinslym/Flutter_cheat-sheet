@@ -15,12 +15,15 @@
 [Text Class](https://api.flutter.dev/flutter/widgets/Text-class.html) Display and style text.
 
 ```dart
-Text(
-  'Hello, $_name! How are you?',
-  textAlign: TextAlign.center,
-  overflow: TextOverflow.ellipsis,
-  style: TextStyle(fontWeight: FontWeight.bold),
-)
+Text("""
+  Text with a background color  and lorem ipsum 
+  that will display what it can in a maximum number 
+  of 2 lines.""",
+    textAlign: TextAlign.right,
+    style: Theme.of(context).textTheme.title,
+    textScaleFactor: 1.5,
+    maxLines: 2
+  )
  ```
 ![screenshot of app](screenshots/text_widgets/text_class.png)
 
